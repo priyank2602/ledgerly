@@ -1,0 +1,15 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #faf9f5; color: #141413; }
+header { background: #141413; color: #faf9f5; padding: 1rem 2rem; display: flex; gap: 1.5rem; align-items: center; }
+header a { color: #faf9f5; text-decoration: none; opacity: 0.8; }
+header strong { margin-right: auto; }
+main { max-width: 860px; margin: 2rem auto; padding: 0 1rem; }
+table { width: 100%; border-collapse: collapse; background: #fff; }
+th, td { text-align: left; padding: 0.6rem 0.8rem; border-bottom: 1px solid #e3dacc; }
+td.money { text-align: right; font-variant-numeric: tabular-nums; }
+.status { font-size: 0.8rem; padding: 0.1rem 0.5rem; border-radius: 99px; background: #e3dacc; }
+form { background: #fff; padding: 1.5rem; max-width: 380px; display: grid; gap: 0.9rem; }
+label { display: grid; gap: 0.3rem; font-size: 0.9rem; }
+input { padding: 0.55rem; border: 1px solid #c9c4b8; border-radius: 6px; font: inherit; }
+button { padding: 0.6rem; border: 0; border-radius: 6px; background: #cc785c; color: #fff; font: inherit; cursor: pointer; }
+.message { font-size: 0.9rem; }

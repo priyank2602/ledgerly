@@ -1,0 +1,14 @@
+{
+  "name": "ledgerly",
+  "version": "0.4.0",
+  "description": "A tiny invoicing app for the Claude Code workshop",
+  "type": "module",
+  "bin": { "ledgerly": "bin/ledgerly.js" },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test",
+    "cli": "node bin/ledgerly.js"
+  },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}

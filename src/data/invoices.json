@@ -1,0 +1,14 @@
+[
+  { "id": "INV-1001", "customer": "Acme Ltd", "issued": "2026-08-01", "due": "2026-08-31", "status": "paid",
+    "discountPercent": 0, "lines": [ { "description": "Website audit", "qty": 1, "unitPrice": 1200 } ] },
+  { "id": "INV-1002", "customer": "Northwind Traders", "issued": "2026-08-15", "due": "2026-09-14", "status": "sent",
+    "discountPercent": 10, "lines": [ { "description": "Design sprint", "qty": 5, "unitPrice": 850 }, { "description": "Workshop materials", "qty": 1, "unitPrice": 120.5 } ] },
+  { "id": "INV-1003", "customer": "Globex Corporation", "issued": "2026-09-01", "due": "2026-10-01", "status": "sent",
+    "discountPercent": 0, "lines": [ { "description": "API integration", "qty": 12, "unitPrice": 95 } ] },
+  { "id": "INV-1004", "customer": "Initech", "issued": "2026-09-10", "due": "2026-10-10", "status": "draft",
+    "discountPercent": 15, "lines": [ { "description": "Support retainer", "qty": 1, "unitPrice": 2000 }, { "description": "On-site day", "qty": 2, "unitPrice": 640 } ] },
+  { "id": "INV-1005", "customer": "acme ltd", "issued": "2026-09-20", "due": "2026-10-20", "status": "sent",
+    "discountPercent": 5, "lines": [ { "description": "Content migration", "qty": 3, "unitPrice": 333.33 } ] },
+  { "id": "INV-1006", "customer": "Umbrella Health", "issued": "2026-07-01", "due": "2026-07-31", "status": "sent",
+    "discountPercent": 0, "lines": [ { "description": "Accessibility review", "qty": 1, "unitPrice": 1499.99 } ] }
+]
